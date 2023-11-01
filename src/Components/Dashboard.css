@@ -1,0 +1,47 @@
+.student-dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  .course img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    width: 100%;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
+  
